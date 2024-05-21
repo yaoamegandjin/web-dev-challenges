@@ -1,0 +1,81 @@
+@media (max-width: 1191px) {
+    header div {
+        max-width: 100%;
+    }
+    .former-employers {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 1.5rem;
+        justify-content:  space-around;
+    }
+    .contact div {
+        max-width: 70%;
+    }
+    .contact div .special {
+        max-width: 7%;
+    }
+}
+
+@media (max-width: 635px) {
+    .get-in-touch-link {
+        display: none;
+    }
+    .main-links {
+        background: hsl(0, 0%, 100%, 0.1);
+        transform: translateX(150%);
+
+    }
+
+    .main-links[data-visible="true"] {
+        transform: translateX(0%);
+    }
+    .nav-links {
+        inset: 0 0 0 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10rem 10rem 10rem 2rem;
+        gap: 2em;
+        z-index: 1000;
+    }
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        background: url("Assets/Hamburger Menu.svg");
+        background-repeat: no-repeat;
+        border: 0;
+        width: 2rem;
+        aspect-ratio: 1;
+        top: 3rem;
+        right: 4rem;
+    }
+    .main-links a {
+        color: white;
+    }
+    
+    .projects, .about {
+      flex-direction: column;
+        padding: 8vh 8vw 8vh 8vw;
+      justify-content: space-between;
+    }
+
+    .projects article, .projects img, .about article {
+        max-width: 100%;
+    }
+
+    .projects {
+        margin-bottom: 0;
+    }
+    
+    .projects article:nth-child(1) {
+        margin-bottom: 10vh;
+    }
+    .contact div {
+        max-width: 70%;
+    }
+    
+
+
+}

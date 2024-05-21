@@ -1,0 +1,76 @@
+@media (max-width: 1116px) {
+    .sign-in-links {
+        display: none;
+    }
+    header {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1148px) {
+    .landing-intro h1 {
+        font-size: 2.8rem;
+    }
+    .review-content {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1125px) {
+    .landing-intro h1 {
+        font-size: 2.35rem;
+    }
+}
+
+@media (max-width: 1055px) {
+    footer div {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .landing-intro h1 {
+        margin-right: 0.8em;
+    }
+
+    .landing-intro {
+        min-width: 500px;
+        max-width: 550px;
+    }
+
+    footer div img {
+        max-width: 150px;
+        height: auto;
+    }
+    section {
+        justify-content: center;
+    }
+    .hero-image {
+        display: none;
+    }
+}
+
+@media (max-width: 721px) {
+    .links {
+        display: none;
+    }
+    .images {
+        display: none;
+    }
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        width: 2rem;
+        border: 0;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+    }
+    .hidden-content-title {
+        display: flex;
+    }
+
+    .hidden-content {
+        width: 40ch;
+        margin: auto;
+        top: 20px;
+    }
+}
