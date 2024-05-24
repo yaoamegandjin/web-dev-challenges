@@ -13,7 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -23,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![alt text](image.png)
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/solutions/new]
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-html-css-and-flexbox-p3Vm5FogQH]
 - Live Site URL: [https://qr-code-component-ya.netlify.app]
 
 ## My process
@@ -51,5 +50,4 @@ I want to continue working on my responsive design skills, it needs a lot of imp
 
 ## Author
 
-- Website - [Yao Amegandjin](https://www.your-site.com)
 - Frontend Mentor - [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
