@@ -136,7 +136,7 @@ const validateInputs = () => {
             document.getElementById("success-message").style.display = "block"; 
             setTimeout(function(){
                 document.getElementById("success-message").style.display = "none"; 
-            }, 60000);
+            },  100000);
         }
     }
 

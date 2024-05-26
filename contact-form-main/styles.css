@@ -33,6 +33,7 @@ label, p{
     padding: 10px 0 10px 0;
 }
 #form {
+    overflow: auto;
     background-color: hsl(0, 0%, 100%);
     border: 1px;
     border-radius: 5px;
@@ -102,6 +103,13 @@ button:hover {
     margin-top: 5px;
 }
 
+#success-message div {
+    display: flex;
+}
+
+.success-icon {
+    padding-right: 8px;
+}
 #success-message {
     display: grid;
     margin-left: auto;
@@ -109,9 +117,9 @@ button:hover {
     grid-gap: 8px;
     width: 350px;
     border-radius: 8px;
-    background-color: #0a312a;
+    background-color: #1c3430;
     color: white;
-    padding: 20px 8px 20px 8px;
+    padding: 20px 10px 20px 10px;
     display: none;
 }
 

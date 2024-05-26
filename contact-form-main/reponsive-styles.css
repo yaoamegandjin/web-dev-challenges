@@ -9,7 +9,6 @@
 @media (max-width: 500px) {
 
     #form {
-        height: 790px;
         max-width: 270px;
         border-radius: 10px;
     }

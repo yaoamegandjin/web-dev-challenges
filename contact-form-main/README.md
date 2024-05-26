@@ -60,10 +60,12 @@ The responsiveness of my designs definitely needs some improvement. Do they work
 
 ### Useful resources
 
-- [Web Technologies Documentation](https://developer.mozilla.org/en-US/) - I wonder what I would do without MDN, when I looking at somebodies implementation of JavaScript form validation and I didn't understand a line of code, I used MDN.
+- [Web Technologies Documentation](https://developer.mozilla.org/en-US/) - I wonder what I would do without MDN, when I was looking at somebody's implementation of JavaScript form validation and I didn't understand a line of code, I used MDN.
 - [CSS Selectors Cheatsheet](frontend30.com) - Who doesn't need a CSS Selector Cheatsheet lol
 
-- [Form validation tutorial](https://dev.to/tracy4code/form-validation-with-javascript-21l) - I looked at a lot of tutorial but this one was the most helpful when it came to the form validation
+- [Form validation tutorial](https://dev.to/tracy4code/form-validation-with-javascript-21l) - I looked at a lot of tutorials but this one was the most helpful when it came to the form validation
+
+[How to make container height fit with its content](https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-content) - Really helpful resource when it came to fitting content to it container
 ## Author
 
 - Frontend Mentor - [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
