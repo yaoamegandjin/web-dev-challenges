@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv/hub]
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-newsletter-sign-up-form-using-html-css-and-javascript-xk4FzoXAPh]
 - Live Site URL: [https://newsletter-sign-up-ya.netlify.app]
 
 ## My process
