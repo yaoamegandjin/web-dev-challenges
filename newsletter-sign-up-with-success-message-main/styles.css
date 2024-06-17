@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:  hsl(235, 18%, 26%);
+    color: hsl(234, 29%, 20%);
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    color: red;
+}
+
+.newsletter-sign-up {
+    width: 840px;
+    height: 550px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.success-box {
+    width: 435px;
+    height: 450px;
+    padding: 3em;
+    display: grid;
+    grid-gap: 0.5em;
+    
+}
+.success-box button {
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.success-box img {
+    width: 50px;
+    height: auto;
+
+}
+p {
+    font-size: 16px;
+}
+
+.newsletter-sign-up, .success-box {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+
+
+picture img {
+    width: 345px;
+    height: auto;
+}
+
+.newsletter-description {
+    width: 430px;
+    padding: 50px 30px 50px 30px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+
+}
+
+.form-field {
+    font-size: 13px;
+}
+.form-field div {
+    display: flex;
+}
+.newsletter-offerings div {
+    display: flex;
+}
+
+.newsletter-offerings div p {
+    margin-left: 15px;
+}
+
+input, button{
+    width: 356px;
+    height: 8vh;
+    border-radius: 8px;
+}
+
+input {
+    border: 1px solid grey;
+    padding-left: 20px;
+}
+
+button {
+    border: 1px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-weight: 700;
+}
+
+label {
+    margin-right: 10rem;
+}
+
+form {
+    display: grid;
+    grid-gap: 1.2em;
+}
+
+#email-input-box {
+    display: grid;
+    grid-gap: 0.7em;
+}
+
+input:hover, button:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #f95776, #fa5870, #fb596b, #fb5b65, #fb5d5f, #fb5e5a, #fb6055, #fb6250, #fb644b, #fb6546, #fb6741, #fb693b);
+}
+
+.placeholder-error-color::-webkit-input-placeholder {
+    color: red;
+ }
+
+.placeholder-normal-color::-webkit-input-placeholder {
+    color: grey;
+}
+
+.input-text-color {
+    color: red;
+}
+
+.display-none {
+    display: none !important;
+}
+
