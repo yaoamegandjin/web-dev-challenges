@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-using-react-js-1NGN3WsV7S]
 - Live Site URL: [https://social-links-profile-main-ya.netlify.app]
 
 ## My process
