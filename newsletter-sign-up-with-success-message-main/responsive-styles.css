@@ -1,4 +1,11 @@
 @media (max-width: 846px) {
+    main {
+        width: 300px;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .newsletter-sign-up {
         flex-direction: column-reverse;
         justify-content: center;
