@@ -1,17 +1,18 @@
-const mainLinks = document.querySelector('.main-links');
-const navToggle = document.querySelector('.mobile-nav-toggle');
+const mainLinks = document.querySelector('.navigation .menu-list');
+const navToggle = document.querySelector('.hamburger');
 
-
+let toggle = false
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("DOM fully loaded and parsed");
     navToggle.addEventListener("click", () => {
-        const visibility = mainLinks.getAttribute("data-visible");
-        console.log(visibility)
-        if (visibility === "false") {
-            mainLinks.setAttribute('data-visible', true);
-        }
-        else {
-            mainLinks.setAttribute('data-visible', false)
+        
+        if (toggle === false && window.innerWidth <= 767) {
+            mainLinks.classList.remove("display-none");
+            mainLinks.classList.add("display-block");
+            toggle = !toggle;
+        } else if (toggle === true && window.innerWidth <= 767) {
+            mainLinks.classList.add("display-none");
+            mainLinks.classList.remove("display-flex");
+            toggle = !toggle;
         }
     
     });

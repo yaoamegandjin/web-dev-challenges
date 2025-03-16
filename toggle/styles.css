@@ -18,6 +18,9 @@ input[type="checkbox"][role="switch"] {
     background-color: #7D7D7D;
     border-radius: 200px;
 }
+input[type="checkbox"][role="switch"]:hover {
+    cursor: pointer;
+}
 input[type="checkbox"][role="switch"]::before {
     content: "";
     position: absolute;

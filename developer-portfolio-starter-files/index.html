@@ -12,27 +12,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav>
-            <div class="name">
-                <ul>
-                 <li><a href="#">Johnathan Specter</a></li>
-                </ul> 
-             </div>
-             <button class="mobile-nav-toggle" aria-controls="nav-links" aria-expanded="false"></button>
-            <div data-visible="false" class="main-links">  
-                <ul class="nav-links">
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">Chats</a></li>
-                    <li><a href="#">Awards</a></li>
-                    <li><a href="#">About</a></li>
-                </ul> 
-            </div>
-            <div class="get-in-touch-link">
-                <ul>
-                    <li><a href="#">Get in touch</a></li>
-                </ul>
-            </div>
-        </nav>
+        <nav class="navigation">
+
+			<!-- Logo -->
+			<div class="logo">
+				<h1> Johnathan Specter</h1>
+			</div>
+			
+			<!-- Navigation -->
+			<ul class="menu-list">
+				<li><a href="#">Articles</a></li>
+				<li><a href="#">Chats</a></li>
+				<li><a href="#">Awards</a></li>
+				<li><a href="#">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 4H0V0H24V4ZM24 8H0V12H24V8ZM24 16H0V20H24V16Z" fill="white"/>
+                </svg>
+			</div>
+            <div class="button">
+                <button>Get in touch</button>
+		    </div>
+		</nav>
         <header>
             <div>
                 <h1>Helping companies build better, scalable software.</h1>
@@ -94,11 +96,7 @@
                 <div>
                     <h2>Interested in working with me?</h2>
                     <p>I'm active on all social media platforms listed below, but you can also send me an email and I will get back to you within 24-48 hours.</p>
-                    <div class="get-in-touch-link two" id="special">
-                    <ul>
-                        <li><a href="#">Get in touch</a></li>
-                    </ul>
-                    </div>
+                    <button>Get in touch</button>
                 </div>
             </section>
         </main>
