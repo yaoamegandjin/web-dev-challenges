@@ -1,17 +1,15 @@
 const mainLinks = document.querySelector('.navigation .menu-list');
 const navToggle = document.querySelector('.hamburger');
 
-let toggle = false
+let toggle = true
+
 document.addEventListener("DOMContentLoaded", () => {
     navToggle.addEventListener("click", () => {
-        
         if (toggle === false && window.innerWidth <= 767) {
-            mainLinks.classList.remove("display-none");
-            mainLinks.classList.add("display-block");
+            mainLinks.style.setProperty("display", "flex")
             toggle = !toggle;
         } else if (toggle === true && window.innerWidth <= 767) {
-            mainLinks.classList.add("display-none");
-            mainLinks.classList.remove("display-flex");
+            mainLinks.style.setProperty("display", "none")
             toggle = !toggle;
         }
     
