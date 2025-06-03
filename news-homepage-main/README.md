@@ -1,56 +1,70 @@
-# Frontend Mentor - News homepage solution
+# Frontend Mentor - News Homepage Solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). This project was a great opportunity to practice **CSS Grid**, **responsive layouts**, and clean UI design using **React**.
 
-## Table of contents
+---
+
+## 📚 Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [The Challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+---
 
-## Overview
+## 📖 Overview
 
-### The challenge
+This news homepage is designed to be visually engaging and responsive across screen sizes. The layout relies heavily on **CSS Grid**, and interactive elements include hover and focus states to enhance usability.
+
+---
+
+## 🧩 The Challenge
 
 Users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- ✅ View the optimal layout for the interface on all device sizes
+- ✅ See clear **hover** and **focus** states for all interactive elements
 
-### Screenshot
+---
 
-![alt text](image.png)
+## 🖼 Screenshot
 
-### Links
+![Screenshot of the news homepage](image.png)
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://news-homepage-main-ya.netlify.app]
+---
 
-## My process
+## 🔗 Links
 
-### Built with
+- **Solution URL:** [https://github.com/yaoamegandjin/web-dev-challenges/tree/main/news-homepage-main](https://github.com/yaoamegandjin/web-dev-challenges/tree/main/news-homepage-main)
+- **Live Site URL:** [https://news-homepage-main-ya.netlify.app](https://news-homepage-main-ya.netlify.app)
 
-- Semantic HTML5 markup
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
+---
 
-### What I learned
+## ⚙️ My Process
 
-This was my first time using CSS grid, now I understand why it is so useful. I tried implementing this UI without using grid and it was very difficult as the screen size got smaller. Doing it with grid is much easier.
+### 🧱 Built With
+
+- Semantic **HTML5**
+- **CSS Grid** and **Flexbox**
+- **Mobile-first** responsive design
+- **React** (for component-based structure)
+
+---
+
+### 🌱 What I Learned
+
+This was my **first time using CSS Grid**, and it made layout management much easier compared to trying to force it with only Flexbox.
+
+Here's a snippet of my layout using Grid:
 
 ```css
-
 .grid-container {
   max-width: 1150px;
   margin: 0 auto;
@@ -80,20 +94,38 @@ This was my first time using CSS grid, now I understand why it is so useful. I t
   grid-row: 14 / span 2;
 }
 
-```
+---
 
-### Continued development
+### 🧩 Continued Development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Some areas I'd like to improve and explore further:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Making the layout even more **scalable** and **componentized** using React.
+- Exploring **CSS Grid Template Areas** for cleaner readability.
+- Implementing **theme toggling** (light/dark mode).
+- Improving accessibility for keyboard and screen reader users.
 
-### Useful resources
+---
 
-- [Build Layouts with CSS Grid #1 - CSS Grid Basics](https://www.youtube.com/watch?v=xPuYbmmPdEM) - Great tutorial on CSS grid
-- [React Responsive Navbar Tutorial - Beginner React JS Project](https://www.youtube.com/watch?v=23BHwAFIZmk) - Provides a really simple tutorial on how to make a responsive navbar in React
+### 📌 Useful Resources
 
-## Author
+- [🔥 CSS Grid Basics – Kevin Powell](https://www.youtube.com/watch?v=xPuYbmmPdEM)  
+  Great introduction to the core principles of CSS Grid. Helped me understand layout structure more clearly and apply it effectively.
 
-- Frontend Mentor - [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
+- [🔧 React Responsive Navbar Tutorial – Web Dev Simplified](https://www.youtube.com/watch?v=23BHwAFIZmk)  
+  Helped me build a flexible, mobile-friendly navbar using React.
 
+- [📘 MDN Web Docs – CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)  
+  Comprehensive documentation and examples for working with CSS Grid.
+
+- [🧠 CSS Tricks – A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)  
+  A cheat sheet and deep dive into all things CSS Grid. Super useful reference.
+
+- [🔍 Frontend Mentor – News Homepage Challenge](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)  
+  The original challenge prompt that guided this project.
+---
+
+### 👤 Author
+
+- Frontend Mentor – [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
+- GitHub – [@yaoamegandjin](https://github.com/yaoamegandjin)

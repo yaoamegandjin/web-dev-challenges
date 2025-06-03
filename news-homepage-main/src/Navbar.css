@@ -2,8 +2,10 @@ nav {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-
+    height: 50px;
 }
+
+
 #navbar {
     display: flex;
     align-items: center;
@@ -62,6 +64,4 @@ nav {
     #navbar li {
         margin-bottom: 25px;
     }
-
-
 }

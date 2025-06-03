@@ -31,16 +31,6 @@ search.addEventListener("focusout", () => {
     collapse = true;
 });
 
-search.addEventListener("input", () => {
-    let movieName = search.value;
-    listItems = document.querySelectorAll(".dropdown-list > div");
-    listItems.forEach((element) => {
-        if (!element.lastChild.firstChild.textContent.toLowerCase().includes(movieName)) {
-            dropDownList.removeChild(element);
-        }
-    })
-});
-
 async function getMovies() {
     const url = "/top-100-christmas-movies.json";
     try {
@@ -51,7 +41,7 @@ async function getMovies() {
         const movies = await response.json();
         populate(movies);
     } catch(error) {
-        console.error(error.message);
+        console.error(`Error: ${error.message}`);
     }
 
 }
@@ -91,21 +81,25 @@ function populate(movies) {
         element.addEventListener("click", () => {
             search.classList.remove("display-inline-block");
             search.classList.add("display-none");
-            // removeAllChildren(searchBox);
             searchBox.appendChild(element);
         });
     });
 }
-
-search.addEventListener("input", () => {
-    let movieName = search.value;
+let movieName;
+let count = 0;
+let newCount = 0;
+search.addEventListener("input", (event) => {
+    movieName = event.target.value.toLowerCase();
     listItems = document.querySelectorAll(".dropdown-list > div");
     listItems.forEach((element) => {
         if (!element.lastChild.firstChild.textContent.toLowerCase().includes(movieName)) {
             dropDownList.removeChild(element);
         }
     });
-    if (search.value === "") {
+  
+    if (movieName === "" && dropDownList.innerHTML !== "") {
+        console.log(dropDownList);
+        removeAllChildren(dropDownList);
         getMovies();
     }
 });
