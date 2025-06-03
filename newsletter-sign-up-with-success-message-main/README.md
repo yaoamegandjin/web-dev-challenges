@@ -84,6 +84,7 @@ This gave me more control than traditional CSS media queries when swapping image
 ## 👤 Author
 
 - Frontend Mentor — [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
+- GitHub – [@yaoamegandjin](https://github.com/yaoamegandjin)
 
 ---
 

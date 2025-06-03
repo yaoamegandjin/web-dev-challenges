@@ -16,6 +16,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -121,9 +122,14 @@ Some areas I'd like to improve and explore further:
 
 - [🔍 Frontend Mentor – News Homepage Challenge](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)  
   The original challenge prompt that guided this project.
+  
 ---
 
-### 👤 Author
+## 👤 Author
 
 - Frontend Mentor – [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
 - GitHub – [@yaoamegandjin](https://github.com/yaoamegandjin)
+
+## 🙏 Acknowledgments
+
+Special thanks to the Frontend Mentor community for helpful feedback and to all the creators who share their work and tutorials online — they make learning and improving as a developer much easier and more enjoyable.

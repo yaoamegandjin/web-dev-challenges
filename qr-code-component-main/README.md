@@ -15,6 +15,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -62,3 +63,7 @@ I plan to continue improving my responsive design skills. Although this componen
 
 - Frontend Mentor – [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
 - GitHub – [@yaoamegandjin](https://github.com/yaoamegandjin)
+
+## 🙏 Acknowledgments
+
+Special thanks to the Frontend Mentor community for helpful feedback and to all the creators who share their work and tutorials online — they make learning and improving as a developer much easier and more enjoyable.
