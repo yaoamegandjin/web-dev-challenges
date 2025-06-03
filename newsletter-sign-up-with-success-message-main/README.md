@@ -80,14 +80,12 @@ This gave me more control than traditional CSS media queries when swapping image
   A simple and effective tool I used to generate the background color gradient for the form.
 
 ---
-
 ## 👤 Author
 
 - Frontend Mentor — [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
 - GitHub – [@yaoamegandjin](https://github.com/yaoamegandjin)
 
 ---
-
 ## 🙏 Acknowledgments
 
 Special thanks to the Frontend Mentor community for helpful feedback and to all the creators who share their work and tutorials online — they make learning and improving as a developer much easier and more enjoyable.

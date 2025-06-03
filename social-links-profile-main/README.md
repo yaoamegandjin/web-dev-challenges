@@ -1,68 +1,114 @@
 # Frontend Mentor - Social links profile solution
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+---
+
+## 📑 Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+---
 
-## Overview
+## 📌 Overview
 
-### The challenge
+### 🧩 The Challenge
 
 Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+---
 
-![alt text](image.png)
+### 📷 Screenshot
 
-### Links
+![Screenshot of social links profile](image.png)
 
-- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-using-react-js-1NGN3WsV7S]
-- Live Site URL: [https://social-links-profile-main-ya.netlify.app]
+---
 
-## My process
+### 🔗 Links
 
-### Built with
+- 💡 [Solution URL](https://www.frontendmentor.io/solutions/social-links-profile-using-react-js-1NGN3WsV7S)
+- 🌐 [Live Site URL](https://social-links-profile-main-ya.netlify.app)
 
-- Semantic HTML5 markup
-- CSS 
-- Javascript
-- [React](https://reactjs.org/) - JS library
+---
 
-### What I learned
-This was my first react challenges. Everything was a learning experience. Even setting up the react project was new. You can read documentation all you want but practice makes perfect. The little snippet of code below was the most challenges part of this challenge
+## 🔧 My Process
 
+### 🛠️ Built With
 
+- Semantic **HTML5** markup
+- **CSS**
+- **JavaScript**
+- [**React**](https://reactjs.org/) – JS library
+
+---
+
+### 🧠 What I Learned
+
+This was my **first React challenge**. Everything was a learning experience—from setting up the React project to structuring components. You can read documentation all you want, but **practice is what solidifies the knowledge**.
+
+The snippet below shows how I handled hover effects with React `useState`, which I found to be one of the most challenging and educational parts of the project:
 
 ```js
 const [isHovered, setIsHovered] = useState(null);
 
-const listOfSocials = socials.map(s => <li key={s.id} onMouseEnter={() => setIsHovered(s.id)} onMouseLeave={() => setIsHovered(null)} style={{ backgroundColor: isHovered === s.id ? '#c5f82a' : '#333333', color: isHovered === s.id ? 'black' : 'white'}}>{s.social}</li>);
+const listOfSocials = socials.map(s => (
+  <li
+    key={s.id}
+    onMouseEnter={() => setIsHovered(s.id)}
+    onMouseLeave={() => setIsHovered(null)}
+    style={{
+      backgroundColor: isHovered === s.id ? '#c5f82a' : '#333333',
+      color: isHovered === s.id ? 'black' : 'white'
+    }}
+  >
+    {s.social}
+  </li>
+));
 ```
+---
+### 🔄 Continued Development
 
-### Continued development
+My current goal is to:
 
-Right now the goal is to continue practicing my react skills.
+- Keep practicing **React** to gain more confidence in handling state, events, and component logic.
+- Improve my **component structure** and **code readability**.
+- Learn more about using **React Hooks** effectively.
+- Focus on accessibility and semantic HTML to ensure better UX for all users.
 
-### Useful resources
+---
 
-- [React documentation](https://react.dev/) - Best place to learn react in my opinion is the official documentation.
+### 📚 Useful Resources
 
-## Author
+- [React Documentation](https://react.dev/) – The official documentation is incredibly helpful for both beginners and experienced developers.
+- [W3Schools React Tutorial](https://www.w3schools.com/react/) – A simple and quick reference to React fundamentals.
+- [Frontend Mentor Discord Community](https://discord.gg/frontendmentor) – A great place to ask questions, get feedback, and connect with other developers.
 
-- Frontend Mentor - [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
+---
+
+## 👤 Author
+
+- Frontend Mentor – [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
+- GitHub – [@yaoamegandjin](https://github.com/yaoamegandjin)
+---
+
+## 🙏 Acknowledgments
+
+Big thanks to:
+
+- **Frontend Mentor** for providing amazing challenges that help developers improve by building real-world projects.
+- The **React documentation team** for making the learning experience clear and beginner-friendly.
+- Everyone in the **Frontend Mentor Discord community** who shares feedback, support, and inspiration.
+
+
