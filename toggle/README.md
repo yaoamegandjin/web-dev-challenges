@@ -39,15 +39,6 @@ Create a toggle switch UI using only HTML and CSS, mimicking the behavior of a t
 - No JavaScript or external libraries
 
 ---
-
-## 🚀 Getting Started
-
-To run this project locally:
-
-1. Clone the repository  
-```bash
-    git clone https://github.com/your-username/css-only-toggle.git
-```
 ## 📸 Screenshots
 ### Unchecked State
 ![Unchecked State](image-1.png)
