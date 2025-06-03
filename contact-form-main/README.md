@@ -115,5 +115,3 @@ I want to improve:
 ## 🙏 Acknowledgments
 
 Big thanks to **Tracy** for his amazing [form validation tutorial on DEV](https://dev.to/tracydev). It made a huge difference in how I approached and understood the logic for validating forms effectively.
-
----

@@ -1,51 +1,64 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+---
+
+## 📑 Table of Contents
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
 - [Author](#author)
 
-## Overview
+---
 
-### Screenshot
-![alt text](image.png)
-### Links
+## 📌 Overview
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-html-css-and-flexbox-p3Vm5FogQH]
-- Live Site URL: [https://qr-code-component-ya.netlify.app]
+A simple, static QR code component challenge ideal for beginners looking to practice HTML and CSS fundamentals.
 
-## My process
+### 📷 Screenshot
 
-### Built with
+![QR code component screenshot](image.png)
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+### 🔗 Links
 
-### What I learned
+- 💡 [Solution URL](https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-html-css-and-flexbox-p3Vm5FogQH)
+- 🌐 [Live Site URL](https://qr-code-component-ya.netlify.app)
 
-Practice or you will lose your skills. This is my first frontend design challenge in months. It took me a bit to just refresh my memory on the fundamentals.
+---
 
-### Continued development
+## 🔧 My Process
 
-I want to continue working on my responsive design skills, it needs a lot of improvement. 
+### 🛠️ Built With
 
-### Useful resources
+- Semantic **HTML5** markup
+- **CSS custom properties**
+- **Flexbox**
+- **CSS Grid**
 
-- [HTML semantics cheat sheet](learntheweb.courses) - I needed a refresher on semantic HTML and this website helped a lot
-- [CSS Selectors Cheatsheet](frontend30.com) - I needed a refresher on CSS Selectors. It was a very helpful resource
+### 🧠 What I Learned
 
+> Practice or you will lose your skills.  
+> This is my first frontend design challenge in months. It took me a bit to refresh my memory on the fundamentals of HTML and CSS, but it was a great reminder of how important consistency is in coding.
 
-## Author
+### 🔄 Continued Development
 
-- Frontend Mentor - [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
+I plan to continue improving my responsive design skills. Although this component was static, I want to practice adapting layouts for different screen sizes more efficiently.
+
+### 📚 Useful Resources
+
+- [HTML Semantics Cheat Sheet – Learn the Web](https://learntheweb.courses) – Helped me revisit key semantic HTML tags and their usage.
+- [CSS Selectors Cheatsheet – Frontend30](https://frontend30.com/css-selectors-cheatsheet/) – A handy reference that refreshed my memory on different selectors and their behaviors.
+
+---
+
+## 👤 Author
+
+- Frontend Mentor – [@yaoamegandjin](https://www.frontendmentor.io/profile/yaoamegandjin)
+- GitHub – [@yaoamegandjin](https://github.com/yaoamegandjin)
