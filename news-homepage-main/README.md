@@ -93,9 +93,7 @@ Here's a snippet of my layout using Grid:
   grid-column: 1 / span 3;
   grid-row: 14 / span 2;
 }
-
----
-
+```
 ### 🧩 Continued Development
 
 Some areas I'd like to improve and explore further:

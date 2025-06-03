@@ -103,8 +103,6 @@ I want to improve:
 - **[MDN Web Docs](https://developer.mozilla.org/)** – invaluable for JavaScript concepts I didn’t initially understand.
 - **[CSS Selectors Cheatsheet](https://frontend30.com/css-selectors-cheatsheet/)** – a must-have reference.
 - **[Form Validation Tutorial by Tracy](https://dev.to/tracydev)** – the most helpful resource I found during this project.
-- **Container Height Fit Guide** – helped me understand how to ensure containers adjust dynamically to their content.
-
 ---
 
 ## 👤 Author
