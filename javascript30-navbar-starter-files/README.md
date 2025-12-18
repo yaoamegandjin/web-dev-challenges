@@ -1,3 +1,3 @@
 # Codewell's Ondeck challenge
 
-![alt text](<ondeck.gif>)
+![alt text](ondeck.gif)
