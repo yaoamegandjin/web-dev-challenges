@@ -1,0 +1,122 @@
+
+@media (max-width: 1191px) {
+    header div {
+        max-width: 100%;
+    }
+    .former-employers {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 1.5rem;
+        justify-content:  space-around;
+    }
+    .contact div {
+        max-width: 70%;
+    }
+    .contact div .special {
+        max-width: 7%;
+    }
+}
+@media (max-width: 441px) {
+    header div {
+        max-width: 90%;
+    }
+    .former-employers {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        row-gap: 1.5rem;
+        justify-content:  space-around;
+    }
+}
+
+.projects, .about {
+  flex-direction: column;
+  padding: 8vh 8vw 8vh 8vw;
+  justify-content: space-between;
+}
+
+.projects article, .projects img, .about article {
+  max-width: 100%;
+}
+
+.projects {
+  margin-bottom: 0;
+}
+    
+.projects article:nth-child(1) {
+  margin-bottom: 10vh;
+}
+
+.contact div {
+  max-width: 70%;
+}
+    
+@media (max-width: 990px) {
+    .navigation .logo {
+        margin-left: 7vh;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navigation .menu-list {
+    width: 60%;
+  }
+
+  .navigation .menu-list li a{
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 990px) {
+    .button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .navigation .logo {
+    margin-left: 9vw;
+  }
+  .navigation {
+    justify-content: space-between;
+  }
+
+  .navigation .menu-list {
+    position: absolute;
+    top: 7.8vh;
+    min-width: 100%;
+    min-height: 70%;
+    background: #3a3b49;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 2em;
+  }
+
+  .navigation .menu-list li {
+    display: block;
+  }
+
+  .navigation .menu-list li a {
+    display: block;
+    padding: 0px;
+  }
+
+  .navigation .menu-list li a:hover{
+    color: #b1d4e0;
+    padding-left: 30px;
+    background: rgba(177, 212, 224, 0.2);
+  }
+
+
+  .navigation .hamburger{
+    display: block;
+    cursor: pointer;
+  }
+
+}
+    
