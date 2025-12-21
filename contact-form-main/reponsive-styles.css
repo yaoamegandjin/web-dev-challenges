@@ -1,0 +1,38 @@
+
+@media (max-width: 910px) {
+    
+    #form {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #form {
+        max-width: 270px;
+        border-radius: 10px;
+    }
+    textarea {
+        height: 33vh;
+    }
+    
+    .name-form-fields, .query-type-form-field {
+        flex-direction: column;
+
+    }
+
+    .query-type-form-field div + div {
+        margin-top: 13px;
+
+    }
+
+
+    .name-form-fields  .form-field input, .form-field #email, .query-type-form-field div{
+        width: 220px;
+    }
+
+    #success-message {
+        width: 250px;
+    }
+    
+}

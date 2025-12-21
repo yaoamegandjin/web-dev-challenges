@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    background-color: hsl(148, 38%, 91%);
+    color: hsl(186, 15%, 59%);
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    color: hsl(169, 82%, 27%);
+}
+h1 {
+    color: hsl(187, 24%, 22%);
+    font-size: 24px;
+    font-weight: 700;
+}
+label, p{
+    font-size: 13px;
+}
+
+.query-type-form-field label {
+    font-size: 16px;
+}
+.checkbox-form-field {
+    padding: 10px 0 10px 0;
+}
+#form {
+    overflow: auto;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px;
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 42vw;
+    min-width: 270px;
+    height: 560px;
+    display: grid;
+    grid-gap: 10px;
+}
+.form-field {
+    display: grid;
+    grid-gap: 8px;
+}
+.name-form-fields {
+    display: flex;
+    justify-content: space-between;
+}
+.form-field input, textarea, button, .query-type-form-field div {
+    height: 35px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea {
+    height: 85px;
+    resize: none;
+}
+.query-type-form-field {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.query-type-form-field div, .name-form-fields div {
+    width: 48.5%;
+}
+
+.query-type-form-field div {
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+input {
+    border-color: hsl(186, 15%, 59%);
+    accent-color: hsl(169, 82%, 27%);
+}
+
+button {
+    color: hsl(0, 0%, 100%);
+    background: hsl(169, 82%, 27%);
+}
+
+
+input:hover, textarea:hover {
+    border: 0.1em solid hsl(169, 82%, 27%);
+}
+button:hover {
+    background-color: hsl(169deg 81.6% 14.11%);
+}
+
+
+.error-message {
+    display: block;
+    color: #d94545;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#success-message div {
+    display: flex;
+}
+
+.success-icon {
+    padding-right: 8px;
+}
+#success-message {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 8px;
+    width: 350px;
+    border-radius: 8px;
+    background-color: #1c3430;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    display: none;
+}
+
+h2 {
+    font-size: 1em;
+
+}
