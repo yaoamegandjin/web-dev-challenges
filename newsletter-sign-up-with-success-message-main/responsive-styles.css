@@ -1,0 +1,53 @@
+@media (max-width: 846px) {
+    main {
+        width: 300px;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .newsletter-sign-up {
+        flex-direction: column-reverse;
+        justify-content: center;
+        grid-gap: 0px;
+        width: 400px;
+        height: 750px;
+        border-radius: 0px;
+        padding: 0px;
+    }
+    .newsletter-description {
+        width: 400px;
+        padding: 20px;
+        margin-bottom: 70px;
+    }
+
+    picture img {
+        width: 400px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 35px;
+        margin-top: 15px;
+    }
+
+    .email-sign-up {
+        margin-top: 30px;
+    }
+
+    .success-box {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        width: 370px;
+        height: 750px;
+        padding: 20px;
+        padding-top: 100px;
+    }
+
+    .success-box button {
+        margin-top: 290px;
+        width: 330px;
+    }
+
+}
