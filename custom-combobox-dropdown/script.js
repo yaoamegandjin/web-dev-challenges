@@ -107,10 +107,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (title.includes(movieName)) {
                 element.style.display = "flex";
+                element.style.borderBottom = "2px solid white";
+                lastVisibleElement = element;
             } else {
                 element.style.display = "none";
             }
         });
+
+        if (lastVisibleElement) {
+            lastVisibleElement.style.borderBottom = "none";
+        }
 
     });
 });
