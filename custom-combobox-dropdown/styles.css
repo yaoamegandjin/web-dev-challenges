@@ -41,6 +41,9 @@
     .dropdown-list .list-item:hover {
         background-color: #1AAAF2;
         color: white;
+    }
+
+    .search-wrapper,  .dropdown-list .list-item:hover {
         cursor: pointer;
     }
 
