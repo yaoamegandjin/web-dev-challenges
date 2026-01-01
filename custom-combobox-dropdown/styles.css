@@ -43,7 +43,8 @@
         color: white;
     }
 
-    .search-wrapper,  .dropdown-list .list-item:hover {
+
+    .dropdown-list .list-item:hover, .search-wrapper:hover {
         cursor: pointer;
     }
 
