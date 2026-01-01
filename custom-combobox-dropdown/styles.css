@@ -103,9 +103,10 @@
 
     }
 
-    .list-item + .list-item {
+    .dropdown-list .list-item:not(:last-child){
         border-bottom: 2px solid white;
     }
+
 
     .list-item img {
         height: auto;
