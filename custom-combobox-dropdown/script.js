@@ -11,15 +11,13 @@ document.addEventListener("DOMContentLoaded", () => {
         if (movieController) {
             movieController.abort();
         }
-        const movie = document.querySelector(".search-box .list-item");
-        if (movie != null) {
-            searchBox.removeChild(movie);
+        const movie = searchBox.querySelector(".list-item");
+        if (movie) {
+            movie.remove();
         }
-        search.classList.remove("display-none");
-        search.classList.add("display-inline-block");
+        search.classList.replace("display-none", "display-inline-block");
         search.focus();
-        label.classList.add("display-none");
-        label.classList.remove("display-inline-block");
+        label.classList.replace("display-inline-block", "display-none");
         dropDownList.innerHTML = "";
         getMovies();
         dropDownList.classList.remove("display-none");
@@ -29,16 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     comboBox.addEventListener("focusout", () => {
         search.value = "";
-        search.classList.add("display-none");
-        search.classList.remove("display-inline-block");
+        search.classList.replace("display-inline-block", "display-none");
         const hasMovie = searchBox.querySelector(".list-item");
         if (!hasMovie) {
-            label.classList.remove("display-none");
-            label.classList.add("display-inline-block");
+            label.classList.replace("display-none", "display-inline-block");
         }
-        removeAllChildren(dropDownList);
-        dropDownList.classList.add("display-none");
-        dropDownList.classList.remove("display-inline-block");
+        dropDownList.innerHTML = "";
+        dropDownList.classList.replace("display-inline-block", "display-none");
     })
 
     async function getMovies() {
@@ -56,12 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error(`Error: ${error.message}`);
         }
 
-    }
-
-    function removeAllChildren(element) {
-        while (element.firstChild) {
-            element.removeChild(element.firstChild);
-        }
     }
 
     function checkImage(url) {
