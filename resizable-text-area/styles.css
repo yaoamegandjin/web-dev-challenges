@@ -1,0 +1,35 @@
+@layer reset, base;
+
+@import url("reset.css") layer(reset);
+
+@layer base {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    textarea {
+        outline: none;
+        resize: none;
+        padding: 10px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        width: 60vw;
+        min-height: 25vh;
+    }
+
+    textarea {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    textarea::-webkit-scrollbar {
+        display: none;
+    }  
+}
