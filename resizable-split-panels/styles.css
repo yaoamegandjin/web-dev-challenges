@@ -1,0 +1,58 @@
+@layer reset, base;
+
+@import url("reset.css") layer(reset);
+
+@layer base {
+    :root {
+        --light-green: #CAE3DB;
+        --middle-green: #698662;
+        --dark-green: #536a4e;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    main,  .container, .top-panel {
+        display: flex
+    }
+    main {
+        height: 100vh;
+        flex-direction: column;
+        border: 10px solid black;
+    }
+    
+    .left-panel {
+        background-color: var(--middle-green);
+    }
+
+    .right-panel {
+        background-color: var(--dark-green);
+    }
+
+    .top-panel {
+        background-color: var(--light-green);
+    }
+
+    .container, .top-panel {
+        flex-direction: row;
+        flex-grow: 2;
+    }
+
+    .horizontal-resizer {
+        width: 5px;
+        height: 100%;
+    }
+
+    .horizontal-resizer, .vertical-resizer {
+        background-color: black;
+    }
+
+    .vertical-resizer {
+        width: 100%;
+        height: 5px;
+    }
+    .left-panel, .right-panel {
+       flex-grow: 1;
+    }
+}
