@@ -1,0 +1,45 @@
+@layer reset, base;
+
+@import url("reset.css") layer(reset);
+
+@layer base {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .character-counter {
+        margin-left: auto;
+    }
+
+    textarea {
+        outline: none;
+        resize: none;
+        padding: 10px;
+        background-color: lightgrey;
+        border: 1px solid darkgrey;
+        width: 50vw;
+        min-height: 30vh;
+    }
+
+    textarea {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    textarea::-webkit-scrollbar {
+        display: none;
+    }  
+}
