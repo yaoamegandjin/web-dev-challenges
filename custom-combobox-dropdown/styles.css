@@ -9,10 +9,12 @@
         --font-size-sm: 32px;
     }
 
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
         box-sizing: border-box;
     }
-    
+
     body {
         font-family: "Nunito", sans-serif;
         font-size: var(--font-size-base);
@@ -20,7 +22,8 @@
         font-style: normal;
     }
 
-    .dropdown-list, .search-wrapper {
+    .dropdown-list,
+    .search-wrapper {
         background-color: #F3F3F3;
         border: 1px solid #DADADA;
         width: 85vw;
@@ -48,7 +51,8 @@
     }
 
 
-    .dropdown-list .list-item:hover, .search-wrapper:hover {
+    .dropdown-list .list-item:hover,
+    .search-wrapper:hover {
         cursor: pointer;
     }
 
@@ -92,8 +96,15 @@
     input[type="search"]::-webkit-search-cancel-button {
         display: none;
     }
-    
-    label , .search-wrapper .list-item{
+
+    input[type="search"]:focus~label {
+        top: -30px;
+        left: 1px;
+        font-size: var(--font-size-sm);
+    }
+
+    label,
+    .search-wrapper .list-item {
         position: absolute;
         top: 50%;
         -ms-transform: translateY(-50%);
@@ -103,15 +114,16 @@
     label {
         left: 7%;
     }
+
     .list-item {
         padding: 0.5em 0.6em;
-        display: flex;         
+        display: flex;
         align-items: center;
         gap: 0.5em;
 
     }
 
-    .dropdown-list .list-item:not(:last-child){
+    .dropdown-list .list-item:not(:last-child) {
         border-bottom: 2px solid white;
     }
 
@@ -119,7 +131,7 @@
     .list-item img {
         height: auto;
         width: 90px;
-        
+
     }
 
     .combobox {
@@ -131,7 +143,7 @@
 }
 
 @layer responsive {
-     
+
     @media (max-width: 826px) {
         body {
             font-size: 22px;

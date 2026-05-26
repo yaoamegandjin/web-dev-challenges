@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         search.classList.replace("display-none", "display-inline-block");
         search.focus();
-        label.classList.replace("display-inline-block", "display-none");
         dropDownList.innerHTML = "";
         getMovies();
         dropDownList.classList.remove("display-none");
@@ -28,9 +27,10 @@ document.addEventListener("DOMContentLoaded", () => {
     comboBox.addEventListener("focusout", () => {
         search.value = "";
         search.classList.replace("display-inline-block", "display-none");
+        label.classList.replace("display-none", "display-inline-block");
         const hasMovie = searchBox.querySelector(".list-item");
-        if (!hasMovie) {
-            label.classList.replace("display-none", "display-inline-block");
+        if (hasMovie) {
+            label.classList.replace("display-inline-block", "display-none");
         }
         dropDownList.innerHTML = "";
         dropDownList.classList.replace("display-inline-block", "display-none");
@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 event.preventDefault();
                 search.classList.add("display-none");
                 search.classList.remove("display-inline-block");
+                label.classList.add("display-none");
                 searchBox.appendChild(div1);
 
             }, { once: true });
