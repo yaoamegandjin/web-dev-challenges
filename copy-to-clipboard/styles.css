@@ -1,0 +1,112 @@
+@layer reset, base, responsive;
+
+@import url("reset.css") layer(reset);
+
+@layer base {
+    :root {
+        --icon-color: #ff008c;
+        --border-color: #dbdbdb;
+        --background-color: #f4f4f4;
+        --border-radius: 10px;
+        --font-name: "Roboto Mono", monospace;
+        --font-size: 20px;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: var(--font-name);
+        font-size: var(--font-size);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .copy-to-clipboard {
+        display: flex;
+        justify-content: space-between;
+        width: 60vw;
+        height: auto;
+        aspect-ratio: 6 / 1;
+        border-radius: 15px;
+        border: 4px solid var(--border-color);
+        background-color: var(--background-color);
+        padding: 0 2em 0 2em;
+    }
+
+    input[type="text"] {
+        width: 90%;
+        outline: none;
+        border: none;
+    }
+
+    input[type="text"],
+    input[type="text"]:focus,
+    button {
+        background-color: transparent;
+    }
+
+
+    button {
+        anchor-name: --tooltip-btn;
+        position: relative;
+        background-image: url("clipboard.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border: none;
+        width: 6.5%;
+        height: auto;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    .tooltip {
+        display: none;
+        justify-content: center;
+        font-size: 0.85rem;
+        align-items: center;
+        position: absolute;
+        color: lightgray;
+        width: calc(anchor-size(width) * 2.35);
+        height: calc(anchor-size(height) / 2.35);
+        border-radius: 20px;
+        position-anchor: --tooltip-btn;
+        position-area: top center;
+        margin-bottom: calc(anchor-size(height) * -0.15);
+        /* triangle dimension */
+        --b: 1em;
+        /* base */
+        --h: 0.5em;
+        /* height */
+
+        --p: 50%;
+        /* position */
+        --r: 0.3em;
+        /* the radius */
+
+        border-radius: var(--r) var(--r) min(var(--r), 100% - var(--p) - var(--b)/2) min(var(--r), var(--p) - var(--b)/2)/var(--r);
+        background: 0 0/100% calc(100% + var(--h)) linear-gradient(60deg, #000000, #000000);
+        /* the gradient */
+        z-index: 0;
+    }
+
+    .tooltip:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        inset: 0 0 calc(-1*var(--h));
+        background-image: inherit;
+        clip-path:
+            polygon(50% 50%,
+                min(100%, var(--p) + var(--b)/2) calc(100% - var(--h)), var(--p) 100%,
+                max(0%, var(--p) - var(--b)/2) calc(100% - var(--h)));
+    }
+}
