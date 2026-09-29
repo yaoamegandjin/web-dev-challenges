@@ -1,0 +1,66 @@
+@layer reset, base;
+
+@import url("reset.css") layer(reset);
+
+@layer base {
+    :root {
+        --input--background-color: #EDEDED;
+        --input-stroke-color: #CFCECE;
+        --focus-border-color: #0015FF;
+        --rounded-border: 10px;
+        --font-name: "Inter", sans-serif;
+        --input-width: clamp(min(90vw, 25rem), 50vw, 50rem);
+        --input-text-size: calc(var(--input-width) * 0.04);       
+        --label-size: calc(var(--input-text-size) * 0.583);
+        --slug-text-size: calc(var(--input-text-size) * 0.667);
+        --border-width: 0.2em;                                   
+    }
+
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100dvh;
+        font-family: var(--font-name);
+    }
+
+    label {
+        font-size: var(--label-size);
+        font-weight: bold;
+        position: absolute;
+        position-anchor: --input-text-box;
+        position-area: center left;
+        left: anchor(left);
+        margin: 0 0 3.5em 3.65em;
+    }
+
+    .slug-text {
+        margin: 0.6em 0 0 3em;
+    }
+
+    input[type="text"] {
+        anchor-name: --input-text-box;
+        outline: none;
+        width: var(--input-width);
+        aspect-ratio: 5 / 1;
+        background-color: var(--input--background-color);
+        border: var(--border-width) solid var(--input-stroke-color);
+        border-radius: var(--rounded-border);
+        font-size: var(--input-text-size);
+        padding: 1.5em 0 0 2em;
+    }
+
+    input[type="text"]:focus {
+        border-color: var(--focus-border-color);
+    }
+    div {
+        font-size: var(--slug-text-size);
+    }
+}
