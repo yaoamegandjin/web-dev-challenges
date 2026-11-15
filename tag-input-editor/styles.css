@@ -1,0 +1,95 @@
+@layer reset, base;
+
+@import url("reset.css") layer(reset);
+
+@layer base {
+    :root {
+        --input--background-color: #1E1E1E;
+        --close-icon-color: #6b6b6b;
+        --hover-close-icon-color: #ff0000;
+        --input-text-color: #fff;
+        --font-name: "Inter", sans-serif;
+        --label-text-size: 18px;
+        --tag-text-size: 24px;
+    }
+
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        font-family: var(--font-name);
+        background-color: black;
+        color: var(--input-text-color);
+        font-size: var(--tag-text-size);
+    }
+
+    main {
+        width: min(100%, 48rem)
+    }
+
+    button {
+        border: none;
+        background-image: url("close.svg");
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        width: 24px;
+        height: 25px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-image: url("close-red.svg");
+    }
+
+    input[type="text"] {
+        flex: 1 1 10ch;
+        min-width: 8ch;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: inherit;
+        font: inherit;
+    }
+
+    .tag-input-editor {
+        width: 100%;
+        min-height: 110px;
+        margin-top: 0.5em;
+        padding: 1.5rem;
+        border-radius: 10px;
+        background-color: var(--input--background-color);
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.7em;
+    }
+
+    .tag {
+        display: flex;
+        align-items: center;
+        gap: 0.25em;
+        padding: 0.5em 1em;
+        border-radius: 30px;
+        border: 1px solid var(--input-text-color);
+        overflow-wrap: anywhere;
+    }
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7em;
+        flex: 0 1 auto;
+        min-width: 0;
+    }
+}
